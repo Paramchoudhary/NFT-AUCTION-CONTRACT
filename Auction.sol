@@ -74,5 +74,6 @@ function end() external{
       nft.transferForm(address(this),seller,nftId);
     }
     emit End(highestBidder,highestBid);
+    
 }
 }
